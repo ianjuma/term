@@ -1,5 +1,8 @@
 language: c
 
+before_install:
+  - echo "START"
+
 install: make get-deps
 # install: true
 
@@ -21,3 +24,4 @@ branches:
   only:
     - master
     - stable
+
