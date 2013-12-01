@@ -5,8 +5,7 @@ before_install:
 
 install: make get-deps
 # install: true
-
-make && make test
+# make && make test
 
 compiler: gcc
 
