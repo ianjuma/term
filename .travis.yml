@@ -1,9 +1,23 @@
 language: c
 
 install: make get-deps
+# install: true
 
 make && make test
 
 compiler:
   - clang
   - gcc
+
+
+# blacklist
+branches:
+  except:
+    - legacy
+    - experimental
+
+# whitelist
+branches:
+  only:
+    - master
+    - stable
