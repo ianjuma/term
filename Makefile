@@ -25,12 +25,12 @@ all: build
 
 build: src/new-terminal.c
 	echo "Building program ... "
-	$(CC) $(THREADFLAGS) -o new src/new-terminal.c
+	$(CC) $(THREADFLAGS) -o bin/new src/new-terminal.c
 	echo "Done :)"
 
 
 clean:
-	rm -rf src/*.o src/.so
+	rm -rf bin/*.o bin/.so
 
 help:
 	$(shell echo "Help Page")
