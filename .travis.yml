@@ -8,9 +8,7 @@ install: make get-deps
 
 make && make test
 
-compiler:
-  - clang
-  - gcc
+compiler: gcc
 
 
 # blacklist
