@@ -34,3 +34,9 @@ clean:
 
 help:
 	$(shell echo "Help Page")
+
+get-deps:
+	echo "am not getting anything just yet :)"
+
+test:
+	echo "by default all tests shall pass"
