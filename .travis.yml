@@ -11,6 +11,8 @@ compiler:
   - clang
   - gcc
 
+script: "./runner.sh"
+
 
 # blacklist
 branches:
