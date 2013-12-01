@@ -23,7 +23,7 @@ CFLAGS	    = $(THREADFLAGS) $(LINTFLAGS) -std=c99
 
 all: build
 
-build: new-terminal.c
+build: src/new-terminal.c
 	echo "Building program ... "
 	$(CC) $(THREADFLAGS) -o new src/new-terminal.c
 	echo "Done :)"
