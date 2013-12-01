@@ -1,0 +1,9 @@
+language: c
+
+install: make get-deps
+
+make && make test
+
+compiler:
+  - clang
+  - gcc
