@@ -3,6 +3,9 @@ language: c
 before_install:
   - echo "START"
 
+before_script:
+  - chmod +x runner.sh
+
 install: make get-deps
 # install: true
 # make && make test
