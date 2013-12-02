@@ -4,8 +4,6 @@
 
 #include <stdarg.h>
 
-// TERMlogger -> progname
-
 __noreturn __pure void glogger(int log_L) {
     setlogmask(LOG_UPTO (LOG_NOTICE));
     openlog("TERMlogger", LOG_CONS | LOG_PID | LOG_NDELAY, LOG_LOCAL1);
@@ -43,5 +41,4 @@ __noreturn __pure void errorLogger() {
     syslog(LOG_INFO, "Debug --CRITICAL");
 
     closelog();
-
 }
