@@ -29,3 +29,6 @@ branches:
     - master
     - stable
 
+notifications:
+  email:
+    - wjuma@students.usiu.ac.ke
