@@ -10,6 +10,7 @@ RUN apt-get -y install build-essential make gcc g++ automake
 # add src files
 ADD src CMD `pwd`
 ADD bin CMD `pwd`
+ADD Makefile CMD `pwd`
 
 # install deps + project from github
 RUN make
