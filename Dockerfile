@@ -7,6 +7,9 @@ CMD echo "Simple test + build file"
 RUN apt-get update
 RUN apt-get -y install build-essential make gcc g++ automake
 
+# add src files
+ADD * CMD `pwd`
+
 # install deps + project from github
 RUN make
 
