@@ -9,3 +9,5 @@ RUN apt-get -y install build-essential make gcc g++ automake
 
 # install deps + project from github
 RUN make
+
+CMD echo "Done"
