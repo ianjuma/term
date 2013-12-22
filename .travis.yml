@@ -32,6 +32,7 @@ branches:
 notifications:
   email:
     - wjuma@students.usiu.ac.ke
+    - ian.juma@yahoo.com
   on_success: change
   on_failure: always
 
